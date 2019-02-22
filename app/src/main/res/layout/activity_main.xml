@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:text="Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998."-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:width="480dp"-->
+        <!--android:height="240dp"-->
+        <!--android:text="I am sharing some content by my own app!!!!!"-->
+        <!--android:textSize="20dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.581" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:text="Number:7347592625"-->
+        <!--tools:layout_editor_absoluteY="159dp"-->
+        <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/share_content"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="6dp"-->
+        <!--android:layout_marginStart="32dp"-->
+        <!--android:layout_marginLeft="32dp"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:layout_marginEnd="32dp"-->
+        <!--android:layout_marginRight="32dp"-->
+        <!--android:background="@drawable/ic_share_black_24dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/textView"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/textView"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<Button-->
+
+        <!--android:id="@+id/dial"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignTop="@+id/share_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_toRightOf="@+id/share_content"-->
+        <!--android:background="@drawable/ic_contact_phone_black_24dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/textView"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/camera"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/textView"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--<Button-->
+
+        <!--android:id="@+id/camera"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignTop="@+id/share_content"-->
+        <!--android:layout_marginStart="282dp"-->
+        <!--android:layout_marginLeft="282dp"-->
+        <!--android:layout_marginEnd="80dp"-->
+        <!--android:layout_marginRight="80dp"-->
+        <!--android:layout_toRightOf="@+id/dial"-->
+        <!--android:background="@drawable/ic_camera_alt_black_24dp"-->
+        <!--android:onClick="camera"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/textView"-->
+        <!--tools:layout_editor_absoluteY="214dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/textView"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/textView"-->
+        <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/textView"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/textView"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.0"-->
+        <!--tools:srcCompat="@tools:sample/avatars" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="384dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[1]" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:text="Google was founded in 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/ic_share_black_24dp"/>
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/ic_camera_alt_black_24dp"
+        android:onClick="camera"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/dial"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="88dp"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/share"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:background="@drawable/ic_contact_phone_black_24dp"/>
+
+</android.support.constraint.ConstraintLayout>
